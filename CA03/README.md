@@ -1,7 +1,7 @@
 # Decision Tree Algorithm
 
 **Data**:
-The dataset is obtained from the Census Bureau and represents the salaries of people along with seven demographic variables. It can be accessed by passing this link into pd.read_csv function https://github.com/ArinB/MSBA-CA-03-Decision-Trees/blob/master/census_data.csv?raw=true. 
+The dataset is obtained from the Census Bureau and represents the salaries of people along with seven demographic variables. It can be accessed by passing this link into "pd.read_csv" function: https://github.com/ArinB/MSBA-CA-03-Decision-Trees/blob/master/census_data.csv?raw=true. 
 
 **Instructions**:
 Open the link with the ipynb extension on GitHub(https://github.com/wrutkowska/BSAN6070/blob/main/CA03/CA03.ipynb) to access the notebook immediately or download it and open it either through Jupyter or Google Colab if you want to run the code and try it yourself. 
