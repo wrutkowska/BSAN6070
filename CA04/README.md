@@ -11,7 +11,7 @@ https://github.com/ArinB/MSBA-CA-03-Decision-Trees/blob/master/census_data.csv?r
 
 **Instructions**
 
-Open the link with the ipynb extension on GitHub() to access the notebook immediately or download it and open it either through Jupyter or Google Colab if you want to run the code and try it yourself. The necessary libraries needed to run the models are included at the top of the notebook.
+Open the link with the ipynb extension on GitHub(https://github.com/wrutkowska/BSAN6070/blob/main/CA04/CA04%20Ensemble%20Methods.ipynb) to access the notebook immediately or download it and open it either through Jupyter or Google Colab if you want to run the code and try it yourself. The necessary libraries needed to run the models are included at the top of the notebook.
 
 **Description**
 
@@ -19,4 +19,4 @@ The purpose of this assignment was to train four ensemble models and compare the
 
 **Conclusion**
 
-Although the models have similar best Accuracy and AUC values (the differences are only by 0.01), the XGB Classifer seems to be the one that has the highest Accuracy Score and the highest AUC Score out of all four models. Please note that further tuning of the hyperparameters may result in even better performance.
+Although the models have similar best Accuracy and AUC values (the differences are only by 0.0001), the XGB Classifer seems to be the one that has the highest Accuracy Score and the highest AUC Score out of all four models. Please note that further tuning of the hyperparameters may result in even better performance.
