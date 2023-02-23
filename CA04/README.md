@@ -19,4 +19,4 @@ The purpose of this assignment was to train four ensemble models and compare the
 
 **Conclusion**
 
-Although the models have similar best Accuracy and AUC values (the differences are only by 0.01), the Gradient Boost seems to be the one that has the highest Accuracy Score and the highest AUC Score out of all four models. Please note that further tuning of the hyperparameters may result in even better performance.
+Although the models have similar best Accuracy and AUC values (the differences are only by 0.01), the XGB Classifer seems to be the one that has the highest Accuracy Score and the highest AUC Score out of all four models. Please note that further tuning of the hyperparameters may result in even better performance.
