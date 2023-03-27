@@ -27,4 +27,4 @@ To run the code, you will need to have scikit-learn installed. You can install i
 *pip install scikit-learn*
 
 ### **Conclusion**
-In this assignment, I implemented a kNN-based movie recommender engine that recommends movies based on their genre information and IMDb rating. I found top 5 recommended movies that a user might like after watching “The Post”. Although this is a simplistic approach to creating a movie recommender system, it can be used as a starting point for building more advanced systems that take into account additional factors such as director, cast, and plot.
+In this assignment, I implemented a kNN-based movie recommender engine that recommends movies based on their genre information and IMDb rating. I found the top 5 recommended movies that a user might like after watching “The Post”. Although this is a simplistic approach to creating a movie recommender system, it can be used as a starting point for building more advanced systems that take into account additional factors such as director, cast, and plot.
