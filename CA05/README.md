@@ -1,6 +1,6 @@
 # **CA05 - kNN based Movie Recommender Engine**
 
-This assignment implements a kNN-based movie recommender engine using Python's scikit-learn library. The goal is to recommend movies that are most similar to a given movie based on the genre information and IMDb rating. 
+This assignment implements a kNN-based movie recommender engine using Python's scikit-learn library. The goal is to recommend movies that are most similar to a given movie based on the genre information and IMDB rating. 
 
 **What question are we trying to answer?** - 
 Given a movies data set, what are the 5 most similar movies to a movie query?
@@ -8,7 +8,7 @@ Given a movies data set, what are the 5 most similar movies to a movie query?
 ### **Data**
 I used a small sub-set of the data extracted from the UCI’s IMDB data set. The data file is named movies_recommendation_data.csv and is located at the following URL: https://github.com/ArinB/MSBA-CA-Data/raw/main/CA05/movies_recommendation_data.csv.
 The data contains thirty movies, including data for each movie across seven genres and their IMDB ratings. The implementation assumes that all columns contain numerical data - the data is already encoded and a value of 1 indicates that a movie belongs to a particular genre type and 0 indicates that it does not.
-Additionally, there are relationships among the movies that will not be accounted for (e.g. actors, directors, and themes) when using the KNN algorithm simply because the data that captures those relationships are missing from the data set. Consequently, when I run the KNN algorithm on the data mentioned previously, similarity will be based solely on the included genres and the IMDB ratings of the movies.
+Additionally, there are relationships among the movies that will not be accounted for (e.g. actors, directors, and themes) when using the kNN algorithm simply because the data that captures those relationships are missing from the data set. Consequently, when I run the kNN algorithm on the data mentioned previously, similarity will be based solely on the included genres and the IMDB ratings of the movies.
 
 ### **Instructions**
 Open the link with the ipynb extension on GitHub (https://github.com/wrutkowska/BSAN6070/blob/main/CA05/CA05_kNN_based_Movie_Recommender_Engine.ipynb) to access the notebook immediately or download it and open it either through Jupyter or Google Colab if you want to run the code and try it yourself. The necessary libraries needed to run the models are included at the top of the notebook.
@@ -20,11 +20,11 @@ Imagine you are building your own movie recommendation website which uses your r
 
 *IMDB Rating = 7.2, Biography = Yes, Drama = Yes, Thriller = No, Comedy = No, Crime = No, Mystery = No, History = Yes*
 
-The code uses the data from movies_recommendation_data.csv, creates a feature vector for "The Post" based on its genre information and IMDb rating, fits a kNN model to the genre information and IMDb rating of all movies, finds the 5 nearest neighbors to "The Post", and prints the titles of the recommended movies. 
+The code uses the data from movies_recommendation_data.csv, creates a feature vector for "The Post" based on its genre information and IMDB rating, fits a kNN model to the genre information and IMDB rating of all movies, finds the 5 nearest neighbors to "The Post", and prints the titles of the recommended movies. 
 
 To run the code, you will need to have scikit-learn installed. You can install it via pip using the following command:
 
 *pip install scikit-learn*
 
 ### **Conclusion**
-In this assignment, I implemented a kNN-based movie recommender engine that recommends movies based on their genre information and IMDb rating. I found the top 5 recommended movies that a user might like after watching “The Post”. Although this is a simplistic approach to creating a movie recommender system, it can be used as a starting point for building more advanced systems that take into account additional factors such as director, cast, and plot.
+In this assignment, I implemented a kNN-based movie recommender engine that recommends movies based on their genre information and IMDB rating. I found the top 5 recommended movies that a user might like after watching “The Post”. Although this is a simplistic approach to creating a movie recommender system, it can be used as a starting point for building more advanced systems that take into account additional factors such as director, cast, and plot.
