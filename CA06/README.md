@@ -11,19 +11,19 @@ First, I loaded the dataset and performed EDA where I checked the variables, vis
 ### **K-Means Clustering**
 
 To determine the optimal number of clusters, I used the Silhouette Method and plotted the silhouette scores for different numbers of clusters. I selected the number of clusters with the highest silhouette score, which was 5. KMeans clustering with 5 clusters was used to group the customers based on their Annual Income and Spending Score. Each cluster was described as follows:
-•	Cluster 0: Medium income, Medium spending
-•	Cluster 1: High income, Low spending
-•	Cluster 2: Low income, Low spending
-•	Cluster 3: Low income, High spending
-•	Cluster 4: High income, High spending
+* Cluster 0: Medium income, Medium spending
+* Cluster 1: High income, Low spending
+* Cluster 2: Low income, Low spending
+* Cluster 3: Low income, High spending
+* Cluster 4: High income, High spending
 
 ### **Insights and Recommendations**
 
 The analysis can help the mall to develop marketing strategies that are tailored to the needs and preferences of each group. The recommendations for each cluster are:
-•	Cluster 0: offer discounts on high-end products to incentivize spending and develop loyalty programs.
-•	Cluster 1: conduct customer research and offer personalized services and experiences.
-•	Cluster 2: offer more affordable products and provide discounts or promotions.
-•	Cluster 3: provide financing options and discounts on complementary products.
-•	Cluster 4: offer exclusive products and personalized services to enhance the high-end shopping experience.
+* Cluster 0: offer discounts on high-end products to incentivize spending and develop loyalty programs.
+* Cluster 1: conduct customer research and offer personalized services and experiences.
+* Cluster 2: offer more affordable products and provide discounts or promotions.
+* Cluster 3: provide financing options and discounts on complementary products.
+* Cluster 4: offer exclusive products and personalized services to enhance the high-end shopping experience.
 
 The mall can use this analysis to improve customer satisfaction, increase sales, and boost profitability.
