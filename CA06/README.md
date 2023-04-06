@@ -4,6 +4,10 @@
 
 The Mall Customers dataset contains information about customers who visit a shopping mall. The dataset has 5 columns which include CustomerID, Gender, Age, Annual Income (in thousands of dollars), and Spending Score (a score assigned by the mall based on customer behavior and spending nature, ranging from 1 to 100). There are no missing values in the dataset and the data types of each column are appropriate.
 
+### **Instructions**
+
+Open the link with the ipynb extension on GitHub (https://github.com/wrutkowska/BSAN6070/blob/main/CA06/CA06_Customer_Segmentation_using_K_Means_Clustering.ipynb) to access the notebook immediately or download it and open it either through Jupyter or Google Colab if you want to run the code and try it yourself. The necessary libraries needed to run the models are included at the top of the notebook.
+
 ### **Exploratory Data Analysis and Data Preparation**
 
 First, I loaded the dataset and performed EDA where I checked the variables, visualized their distributions, and checked for any missing values or duplicated rows. The dataset did not contain any missing values or duplicated rows, so I did not have to handle them. I then performed feature scaling using the StandardScaler from scikit-learn to scale the annual income and spending score features. Next, I selected the appropriate features for clustering, which were Annual Income and Spending Score. Finally, I created a new data frame with only the selected features.
