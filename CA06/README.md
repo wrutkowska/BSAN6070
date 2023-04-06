@@ -11,7 +11,7 @@ First, I loaded the dataset and performed EDA where I checked the variables, vis
 ### **K-Means Clustering**
 
 To determine the optimal number of clusters, I used the Silhouette Method and plotted the silhouette scores for different numbers of clusters. I selected the number of clusters with the highest silhouette score, which was 5. KMeans clustering with 5 clusters was used to group the customers based on their Annual Income and Spending Score. Each cluster was described as follows:
-•	Cluster 0: Relatively high income, medium spending
+•	Cluster 0: Medium income, Medium spending
 •	Cluster 1: High income, Low spending
 •	Cluster 2: Low income, Low spending
 •	Cluster 3: Low income, High spending
